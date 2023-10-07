@@ -91,6 +91,9 @@ a:hover {
    #front-weather-img {
     display: none;
    }
+   #about-h1 {
+    font-size: 80px;
+   }
 
 }
 @media (min-width: 768px){
