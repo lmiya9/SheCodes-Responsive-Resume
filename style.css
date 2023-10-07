@@ -52,6 +52,11 @@ h3 {
   text-decoration: none;
   text-transform: capitalize;
 }
+.project-link {
+     background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
 
 .contact-link {
   background: var(--primary-color);
@@ -91,11 +96,18 @@ a:hover {
    #front-weather-img {
     display: none;
    }
+   #small-weather-img {
+    margin-top: 20px;
+   }
    #about-h1 {
     font-size: 80px;
    }
+   .app-links {
+    display: block;
+    margin: 40px;
+    text-align: center;
+  }
 
-}
 @media (min-width: 768px){
     #small-weather-img {
         display: none;
